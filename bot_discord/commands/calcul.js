@@ -1,37 +1,39 @@
+const Discord = require('discord.js');
+
 module.exports = {
   name : 'calcul',
   description: 'calculatrice',
-  execute(client, message, args){
+  execute(client, message, args, get){
     message.channel.send('Quelle opération type d opération voulez-vous faire ?');
-    if (get.channel.message() === "add") {
-      message.channel.send('premier chiffre:');
-      a = get.channel.message();
+    if (String.prototype.startsWith() === 'ad') {
+      get.message.channel.send('premier chiffre:');
+      a = String.prototype.startsWith();
       message.channel.send('second chiffre:');
-      b = get.channel.message();
+      b = String.prototype.startsWith();
       message.channel.send(a+b);
     }
-    if (get.channel.message() === "sub"){
-      message.channel.send('premier chiffre:');
-      a = get.channel.message();
+    /*if (message.content() === "sub"){
+      message.channel.send.args('premier chiffre:');
+      a = message.content.args();
       message.channel.send('second chiffre:');
-      b = get.channel.message();
+      b = message.content.args();
       message.channel.send(a-b);
     }
-    if (get.channel.message() === "mult") {
-      message.channel.send('premier chiffre:');
-      a = get.channel.message();
+    if (message.content.args() === "mult") {
+      message.channel.send.args('premier chiffre:');
+      a = message.content.args();
       message.channel.send('second chiffre:');
-      b = get.channel.message();
+      b = message.content.args();
       message.channel.send(a*b);
     }
-    if (get.channel.message() === "div") {
+    if (message.content.args() === "div") {
       message.channel.send('premier chiffre:');
-      a = get.channel.message();
+      a = message.content.args();
       message.channel.send('second chiffre:');
-      b = get.channel.message();
+      b = message.content.args();
       message.channel.send(a/b); 
 
-    }
+    } */
   }
 } 
 

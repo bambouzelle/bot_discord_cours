@@ -3,13 +3,13 @@ const Discord = require('discord.js');
 module.exports = {
   name : 'calcul',
   description: 'calculatrice',
-  execute(client, message, args, get){
+  execute(client, message, args){
     message.channel.send('Quelle opération type d opération voulez-vous faire ?');
-    if (String.prototype.startsWith() === 'ad') {
-      get.message.channel.send('premier chiffre:');
-      a = String.prototype.startsWith();
+    if (message.content === 'ad') {
+      message.channel.send('premier chiffre:');
+      a = message.content;
       message.channel.send('second chiffre:');
-      b = String.prototype.startsWith();
+      b = message.content;
       message.channel.send(a+b);
     }
     /*if (message.content() === "sub"){

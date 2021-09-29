@@ -1,2 +1,4 @@
 *.log
 /bot_discord/config.js
+.env
+nodes_modules
